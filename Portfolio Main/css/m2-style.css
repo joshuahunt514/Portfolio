@@ -1,0 +1,169 @@
+/* m2-style.css */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  background-color: black;
+}
+
+/* Zooming Button */
+
+.button2 {
+  background-image: url(../img/m2-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em 2em;
+  color: #fff;
+  border: 0;
+  width: 350px;
+  height: 300px;
+  transition: transform 0.5s;
+  border-radius: 25px;
+}
+
+.button2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.modal-m2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: monospace;
+  max-height: 700px;
+}
+
+.modal-content-m2 {
+  background-color: #f4f4f4;
+  margin: 10px auto;
+  width: 95%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: 1s;
+  max-height: 700px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+
+}
+
+.modal-header-m2 h2, .modal-footer-m2 h3 {
+  margin: 0;
+}
+
+.modal-header-m2 {
+  background: #333;
+  padding: 15px;
+  color: white;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.modal-body-m2 {
+  padding: 10px 20px;
+}
+
+.modal-footer-m2 {
+  background: #333;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.modal-m2 header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/m2-bg.jpg);
+  height: 78vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.main-nav-m2 {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav-m2 li {
+  display: inline-block;
+}
+
+.main-nav-m2 li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.main-nav-m2 li.active a {
+  border: 1px solid white;
+}
+
+.main-nav-m2 li a:hover {
+  border: 1px solid white;
+}
+
+.logo-m2 img {
+  width: 150px;
+  height: auto;
+  float: left;
+}
+
+.row-m2 {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main-header-m2 {
+  position: absolute;
+  width: 1200px;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+#h1-m2 {
+  color: white;
+  margin-top: 250px;
+  margin-left: 20px;
+}
+
+.h1-2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 275px;
+  margin-left: 200px;
+}
+
+.button2-m2 {
+  margin-top: 30px;
+  margin-left: 35%;
+}
+
+.btn-m2 {
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.btn-one-m2 {
+  background-color: #381919;
+  font-family: "Roboto", sans-serif;
+}

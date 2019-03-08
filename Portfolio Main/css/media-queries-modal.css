@@ -1,0 +1,253 @@
+/* Modal 1 */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* m1-style.css */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 1.6;
+        background-color: black;
+    }
+    /* Zooming Button */
+    .button1 {
+        background-image: url(../img/m1-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1em 2em;
+        color: #fff;
+        border: 0;
+        width: 350px;
+        height: 300px;
+        transition: transform .5s;
+        border-radius: 25px;
+    }
+    .button1:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .modal-m1 {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        font-family: monospace;
+        max-height: 700px;
+    }
+    .modal-content-m1 {
+        background-color: #f4f4f4;
+        margin: 10px auto;
+        width: 95%;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+        animation-name: modalopen;
+        animation-duration: 1s;
+        max-height: 568px;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+    .modal-header-m1 h2, .modal-footer-m1 h3 {
+        margin: 0;
+    }
+    .modal-header-m1 h2 {
+        margin-left: 15px;
+    }
+    .modal-header-m1 {
+        background: rgb(97, 24, 11);
+        padding: 15px;
+        color: white;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    .modal-body-m1 {
+        padding: 10px 20px;
+    }
+    .modal-footer-m1 {
+        background: rgb(97, 24, 11);
+        padding: 10px;
+        color: white;
+        text-align: center;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .modal-m1 header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/m1-bg.jpg);
+        height: 78vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .main-nav-m1 {
+        float: left;
+        list-style: none;
+    }
+    .main-nav-m1 li {
+        display: inline-block;
+    }
+    .main-nav-m1 li a {
+        color: white;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+    }
+    .main-nav-m1 li.active a {
+        border: 1px solid white;
+    }
+    .main-nav-m1 li a:hover {
+        border: 1px solid white;
+    }
+    .logo-m1 img {
+        display: none;
+    }
+    .main-nav-m1 li.hide {
+        display: none;
+    }
+    .row-m1 {
+        margin: auto;
+    }
+    .main-header-m1 {
+        position: absolute;
+        max-width: 280px;
+
+    }
+    #h1-m1 {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        left: 0;    }
+    /* Portrait */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+    /* Landscape */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+}
+
+/* Modal 2 */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* m2-style.css */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 1.6;
+        background-color: black;
+    }
+    /* Zooming Button */
+    .button2 {
+        background-image: url(../img/m2-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1em 2em;
+        color: #fff;
+        border: 0;
+        width: 350px;
+        height: 300px;
+        transition: transform 0.5s;
+        border-radius: 25px;
+    }
+    .button2:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .modal-m2 {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        font-family: monospace;
+        max-height: 700px;
+    }
+    .modal-content-m2 {
+        background-color: #f4f4f4;
+        margin: 10px auto;
+        width: 95%;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+        animation-name: modalopen;
+        animation-duration: 1s;
+        max-height: 700px;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+    .modal-header-m2 h2, .modal-footer-m2 h3 {
+        margin: 0;
+    }
+    .modal-header-m2 {
+        background: #333;
+        padding: 15px;
+        color: white;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    .modal-body-m2 {
+        padding: 10px 20px;
+    }
+    .modal-footer-m2 {
+        background: #333;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .modal-m2 header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/m2-bg.jpg);
+        height: 78vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .main-nav-m2 {
+        float: right;
+        list-style: none;
+    }
+    .main-nav-m2 li {
+        display: inline-block;
+    }
+    .main-nav-m2 li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+    }
+    .main-nav-m2 li.active a {
+        border: 1px solid white;
+    }
+    .main-nav-m2 li a:hover {
+        border: 1px solid white;
+    }
+    .logo-m2 img {
+        display: none;
+    }
+    .main-nav-m2 li.hide {
+        display: none;
+    }
+    .row-m2 {
+        margin: auto;
+    }
+    .main-header-m2 {
+        position: absolute;
+        max-width: 280px;
+    }
+    #h1-m2 {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        left: 0;
+        max-width: 300px;
+
+    }
+    /* Portrait */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+    /* Landscape */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+}

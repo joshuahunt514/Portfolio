@@ -1,0 +1,13 @@
+.et_pb_text {
+word-wrap: normal !important;
+}
+
+
+
+
+
+
+
+#footer-info { float: none; text-align: center;
+
+}

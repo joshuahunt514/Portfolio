@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Joshua Hunt | HTML & CSS</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/m1-style.css" />
+    <link rel="stylesheet" href="css/m2-style.css" />
+    
+
+
+    
+    <!-- Media Query Problem -->
+
+
+
+    <!--<link rel="stylesheet" href="css/media-queries.css">-->
+    <link rel="stylesheet" href="css/media-queries-modal.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
+    <style>
+    .no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/loader-64x/Preloader_2.gif) center no-repeat darkgray;
+}
+    </style>
+    <!-- /CSS StyleSheets -->
+
+    <!-- jQuery and JS -->
+
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+      $(window).load(function() {
+        $(".se-pre-con").fadeOut("slow");;
+        });
+    </script>
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+    <script type='text/javascript' src='loadImg.js'></script>
+    <script type='text/javascript'>
+      $(function(){
+        $('img').imgPreload()
+    })
+    </script>    
+
+  </head>
+
+  <body>
+    <div class="se-pre-con"></div>
+    <!-- NavBar, Logo -->
+    <section class="container">
+  <section>
+    <div class="wrapper" id="to-top" >
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+            <a href="#samples"><li>Samples</li></a>
+            <a href="#other-projects"><li class="hide">Sites</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </ul>
+        </div>
+
+        <!-- Icons (GitHub, etc.) -->
+
+        <div class="icons">
+          <a
+            href="https:www.github.com/joshuahunt514"
+            target="_blank"
+            title="Opens New Window"
+            ><i class="fab fab1 fa-github-square fa-4x"></i
+          ></a>
+          <a href="#to-top" 
+            ><i class="fas fas1 fa-arrow-circle-up fa-3x" id="up-arrow"></i
+          ></a>
+        </div>
+      </nav>
+
+      <!-- Header -->
+
+      <div class="main-header">
+        <header>
+          <h1 class="anim">UX & <span id="ui-color">UI</span> Design</h1>
+          <h2 class="anim">
+          Front-End Webpage and Website Design - responsive and effective.
+          </h2>
+        </header>
+      </div>
+  </section>
+      <!-- Zooming Buttons + Modal Popups -->
+
+      <section >
+        <div class="samples" id="samples">
+          <div class="samples-header anim">
+            <h1>Samples</h1>
+            <p>
+              Simple | Responsive | Effective
+            </p>
+ </div>
+            <!-- Modal 1 -->
+
+            <button id="modalBtn" class="button1 anim" style="font-size: 25px;">
+              <span
+                style="display: block; background-color: rgba(0, 0, 0, 0.5);"
+                >Startup</span
+              >
+            </button>
+            <div id="simpleModal" class="modal-m1">
+              <div class="modal-content-m1">
+                <div class="modal-header-m1">
+                  <span class="closeBtn">&times;</span>
+                  <h2>Startup | Landing Page</h2>
+                </div>
+                <div class="modal-body-m1">
+                  <body>
+                    <header>
+                      <div class="row-m1">
+                        <div class="logo-m1">
+                          <img src="img/logo2tra.png" alt="logo" />
+                        </div>
+                        <ul class="main-nav-m1">
+                          <li class="active"><a href="">HOME</a></li>
+                          <li><a href="">SERVICES</a></li>
+                          <li><a href="">ABOUT</a></li>
+                          <li><a href="">CONTACT</a></li>
+                          <li class="hide"><a href="" >NEWS</a></li>
+                          <li class="hide"><a href="" >FAQ</a></li>
+                        </ul>
+                      </div>
+                      <div class="main-header-m1">
+                        <h1 id="h1-m1">Start your Startup</h1>
+
+                        <div class="button2-m1"></div>
+                      </div>
+                    </header>
+                  </body>
+                </div>
+                <div class="modal-footer-m1">
+                  <h3>Contact for more details</h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal 2 -->
+
+            <button id="modalBtn-2" class="button2 anim" style="font-size: 25px;">
+              <span
+                style="display: block; background-color: rgba(0, 0, 0, 0.5);"
+                >Business</span
+              >
+            </button>
+            <div id="simpleModal-2" class="modal-m2">
+              <div class="modal-content-m2">
+                <div class="modal-header-m2">
+                  <span class="closeBtn-2">&times;</span>
+                  <h2>Business | Landing Page</h2>
+                </div>
+                <div class="modal-body-m2">
+                  <body>
+                    <header>
+                      <div class="row-m2">
+                        <div class="logo-m2">
+                          <img src="img/logo2tra.png" alt="logo" />
+                        </div>
+                        <ul class="main-nav-m2">
+                          <li class="active"><a href="">HOME</a></li>
+                          <li><a href="">SERVICES</a></li>
+                          <li><a href="">ABOUT</a></li>
+                          <li><a href="">CONTACT</a></li>
+                          <li class="hide"><a href="">NEWS</a></li>
+                          <li class="hide"><a href="">FAQ</a></li>
+                        </ul>
+                      </div>
+                      <div class="main-header-m2">
+                        <h1 id="h1-m2">Start your Business</h1>
+
+                        <div class="button2-m2"></div>
+                      </div>
+                    </header>
+                  </body>
+                </div>
+                <div class="modal-footer-m2">
+                  <h3>Contact for more details</h3>
+                </div>
+              </div>
+            </div>
+          </section>
+
+      <!-- Other Projects -->
+
+      <section >
+        <div class="other-p" ></div>
+
+        <div class="parallax" >
+          <a href="parallax.html" target="_blank" >
+            <p>(click me)</p>
+            <img
+              class="anim"
+              src="img/p-test-1.jpg"
+              alt="project img"
+              title="Placeholder"
+              id="other-projects"
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- About Me -->
+
+      <section class="about" id="contact" >
+
+        <div class="right">
+
+            <div class="text" >
+                <h2 id="contact-text">Contact</h2>
+                <p>Email: joshhunt.into@gmail.com</p>
+                <p>GitHub: joshuahunt514</p>
+              </div>  
+  
+          <h3 class="anim">About Me</h3>
+
+          <p class="anim">
+            My name is Joshua Hunt, based out of Montreal. Experienced in web design, contact me for more information about starting your project.
+          </p>
+
+        </div>
+
+        <div class="left">
+
+          <img class="anim" src="img/josh-about.png" alt="It's Me!" />
+        
+        </div>
+
+      </section>
+
+      <footer>
+        <p>Copyright &copy; | Joshua Hunt 2019</p>
+      </footer>
+    </div>
+    <script type="text/javascript">
+      window.sr = ScrollReveal();
+      sr.reveal(".anim");
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/main-2.js"></script>
+  </body>
+</html>
